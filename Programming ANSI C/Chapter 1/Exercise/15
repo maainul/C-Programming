@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float x,y,sum,difference,product,division;
+    printf("X:");
+    scanf("%f",&x);
+    printf("Y:");
+    scanf("%f",&y);
+    sum=x+y;
+    difference=x-y;
+    product=x*y;
+    division=x/y;
+    printf(" Sum=%.2f\n Difference=%.2f\n Product=%.2f\n Division=%.2f",sum,difference,product,division);
+    getch;
+}
