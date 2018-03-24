@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define pi 3.1416
+int main ()
+{
+    float r,A;
+    printf("enter the redias of a circle =");
+    scanf("%f",&r);
+    A= pi*r*r;
+    printf("the area is=%f\n",A);
+    return 0;
+}
