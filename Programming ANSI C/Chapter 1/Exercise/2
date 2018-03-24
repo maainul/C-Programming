@@ -1,0 +1,6 @@
+#include <stdio.H>
+int main ()
+{
+    printf("\t*\n\t*\t*\n\t*\t*\t*\n\t*\t*\t*\t*\n");
+    return 0 ;
+}
