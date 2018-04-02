@@ -1,0 +1,24 @@
+#include<stdio.h>
+#define BASE_SALARY 1500.00
+#define BONUS_RATE 200.00
+#define COMISSION 0.02
+int main (){
+    int quantity;
+    float gross_salary,price,bonus,comission;
+    printf("Input Number sold and price: ");
+    scanf("%d%f",&quantity,&price);
+
+    bonus=BONUS_RATE*quantity;
+    comission=COMISSION*quantity*price;
+    gross_salary=BASE_SALARY+bonus+comission;
+    printf("\n");
+    printf("Bonus           =%.2f\n",bonus);
+    printf("Commission           =%.2f\n",comission);
+    printf("Gross Salary           =%.2f\n",gross_salary);
+    return 0;
+
+
+
+
+
+}
