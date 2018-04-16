@@ -6,6 +6,30 @@ Chapter 2:Constants Variables and Data types
 Chapter 3:Operators and Expressions
 Chapter 4:Managing Input and Output Operations
 ```
+### Small Projects
+#### Inventory Reports
+
+```
+Enter Code, Quantity and Rate:
+a11 215 102
+Enter Code, Quantity and Rate:
+ar3 123 546.02
+Enter Code, Quantity and Rate:
+t556y 567 980.67
+Enter Code, Quantity and Rate:
+ty7u 56 768.098
+       Inventory Report
+---------------------------------------
+Code       Quantity      Rate     Value
+---------------------------------------
+  a11        215     102.00   21930.00
+  ar3        123     546.02   67160.46
+t556yty7u    567     980.67  556039.88
+ ty7u         56     768.10   43013.49
+--------------------------------------
+            Total value =688143.812500
+----------------------------------------
+```
 ### Programming Exercise 
 
 ```
