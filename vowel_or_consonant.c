@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
   char ch;
@@ -12,7 +13,6 @@ int main()
  
   return 0;
 }
-
 
 ####Check vowel using switch statement
 #include <stdio.h>
