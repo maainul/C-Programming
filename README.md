@@ -105,22 +105,57 @@ t556yty7u    567     980.67  556039.88
 
 In mathematics, the greatest common divisor (gcd) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers. For example, the gcd of 8 and 12 is 4
 The greatest common divisor is also known as the greatest common factor (gcf), highest common factor (hcf),greatest common measure (gcm),or highest common divisor
+## Ways of doing GCD
 
-## What is the greatest common divisor of 54 and 24?
-```       
-Thus the divisors of 54 are: 1,2,3,6,9,18,27,54
-Similarly, the divisors of 24 are:1,2,3,4,6,8,12,24
+	1.Notation
+	2.Using prime factorizations
+	3.Using Euclid's algorithm
 
-The numbers that these two lists share in common are the common divisors of 54 and 24:1,2,3,6
-The greatest of these is 6. That is, the greatest common divisor of 54 and 24. One writes:
-       gcd(54,24)=6.
-```
-## Find the greatest common divisor of :30,36,28
+### 1.Notation
+
+## Find the greatest common divisor of :28,48,72
+
 ```
 The divisors of each number are given by
-                            30=1,2,3,5,6,10,15,30
-                            36=1,2,3,4,6,9,12,18,36
-                            28=1,2,4,7,14,28
+                           28=1,2,4,7,14,28
+                           48=1,2,3,4,6,8,12,16,24,48
+                           72=1,2,3,4,6,8,9,12,18,24,36,72
+
 The largest number that appears on every list is 2 so this is the greatest common divisor:
                             gcd(30,36,28)=2
 ```
+### 2.Using prime factorizations
+```
+The prime factorizations of 28=(2,2,7)
+The prime factorizations of 48=(2,2,2,2,3)
+The prime factorizations of 72=(2,2,2,3,3)
+
+Common prime factorizations of 28,48,72 are=2,2
+So 
+	GCD=2*2
+	   =4
+```
+### 3.Using Euclid's algorithm
+````
+ 	28)48(1
+ 	   28
+ 	  ____
+ 	  	20)28(1
+ 	  	   20
+ 	  	 ____
+            8)20(2
+          	  16
+          	______
+          	   4)8(2
+          	     8
+          	   _____
+          	   	 0
+    4)72(18
+      4
+    _____
+      32
+      32
+    ______
+       0
+ So the GCD=4
+ ```
