@@ -2,12 +2,8 @@
 int main ()
 {
 	char gender;
-
-
 	printf("Enter (M/F)\n");
 	scanf("%c",&gender);
-
-
 	switch(gender)
 	{
 		case 'M':
@@ -21,8 +17,6 @@ int main ()
 		default:
 			printf("Unsupported\n");
 	}
-
 	printf("\n");
 	return 0;
-
 }
