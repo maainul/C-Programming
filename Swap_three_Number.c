@@ -1,5 +1,4 @@
 ###Swap 3 number###
-
 #include<stdio.h>
 int main()
 {
