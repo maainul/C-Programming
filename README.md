@@ -30,6 +30,20 @@ t556yty7u    567     980.67  556039.88
             Total value =688143.812500
 ----------------------------------------
 ```
+#### Bill Pay Calculation
+```
+Enter leve, jobnumber and basic pay
+Enter 0 for level to END
+2
+23
+5000
+2 23 10074.23
+
+Enter leve, jobnumber and basic pay
+Enter 0 for level to END
+0
+End of the program
+```
 ### Programming Exercise 
 
 ```
