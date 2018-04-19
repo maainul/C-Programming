@@ -101,8 +101,8 @@ t556yty7u    567     980.67  556039.88
 66.	Get IP address
 67.	Shutdown computer
 ```
-10.Greatest Common Factor
-```
+# 10.Greatest Common Factor
+
 In mathematics, the greatest common divisor (gcd) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers. For example, the gcd of 8 and 12 is 4
 The greatest common divisor is also known as the greatest common factor (gcf), highest common factor (hcf),greatest common measure (gcm),or highest common divisor
 
@@ -115,4 +115,13 @@ Similarly, the divisors of 24 are:1,2,3,4,6,8,12,24
 The numbers that these two lists share in common are the common divisors of 54 and 24:1,2,3,6
 The greatest of these is 6. That is, the greatest common divisor of 54 and 24. One writes:
 gcd(54,24)=6.
-```
+
+Find the greatest common divisor of :30,36,28
+
+The divisors of each number are given by
+                            30=1,2,3,5,6,10,15,30
+                            36=1,2,3,4,6,9,12,18,36
+                            28=1,2,4,7,14,28
+The largest number that appears on every list is 2 so this is the greatest common divisor:
+                            gcd(30,36,28)=2
+
