@@ -5,7 +5,6 @@ int main()
 
 	printf("Enter Number of digits:\n");
 	scanf("%d",&d);
-
 	for(n=1;n<=d;n++)
 	{
     printf("Enter Number\n");
