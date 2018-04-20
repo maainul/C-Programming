@@ -26,6 +26,6 @@ int main()
 			printf("Invalid Operation\n");
 			break;
 	}
-	printf("Grade is=%s",grade);
+	printf("Grade is=%c",grade);
 	return 0;
 }
