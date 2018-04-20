@@ -44,6 +44,28 @@ Enter 0 for level to END
 0
 End of the program
 ```
+### Discount Calculation
+```
+Enter level, customerNumber and Price
+Enter 0 for level to END
+1
+11
+890
+Net amount=845.500000
+
+Enter level, customerNumber and Price
+Enter 0 for level to END
+2 
+546
+5678
+Net amount=4968.250000
+
+Enter level, customerNumber and Price
+Enter 0 for level to END
+0
+End of the program
+
+```
 ### Programming Exercise 
 
 ```
