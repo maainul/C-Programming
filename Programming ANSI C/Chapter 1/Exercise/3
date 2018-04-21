@@ -1,6 +1,0 @@
-#include <stdio.h>
-int main ()
-{
-    printf("\n\ta>>------------->b\n");
-    return 0;
-}
