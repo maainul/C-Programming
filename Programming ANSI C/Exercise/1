@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+    printf("\t--------------------\n");
+    printf("\tName:Md:mainul hasan\n\tstreet:muktarbari road\n\tHouse no:seba:313/b\n\tCity:tongi\n\tPin code:1771\n\t");
+    printf("----------------------\n");
+     return 0;
+}
+

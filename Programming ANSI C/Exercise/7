@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+    int a,b,s,d;
+    a = 20;
+    b = 10;
+    s= a + b;
+    d = a- b;
+    printf("\tsum is %d+%d = %d\n",a,b,s);
+    printf("\tdifference is %d-%d = %d\n",a,b,d);
+
+    return 0 ;
+}
