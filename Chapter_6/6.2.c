@@ -10,7 +10,15 @@ int main()
 	printf("  				Multiplication Table\n");		
 	printf("---------------------------------------------------\n");
 	//Outer Loop
-	do{
+	do
+	{
+		colum=1;
+		do
+		{
+			y=row*colum;
+			printf("%4d\n",y);
+			colum=colum+1;
+		}
 
 
 
