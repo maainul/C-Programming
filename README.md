@@ -136,6 +136,7 @@ End of the program
 65.	Print date
 66.	Get IP address
 67.	Shutdown computer
+68.	Convert Decimal To Binary
 ```
 # 10.Greatest Common Factor And Least Common Multiply
 
