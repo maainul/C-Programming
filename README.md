@@ -138,6 +138,8 @@ End of the program
 67.	Shutdown computer
 68.	Convert Decimal To Binary
 ```
+# Solution Link
+### https://www.programmingsimplified.com/c-program-add-matrices
 # 10.Greatest Common Factor And Least Common Multiply
 
 In mathematics, the greatest common divisor (gcd) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers. For example, the gcd of 8 and 12 is 4
