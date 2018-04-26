@@ -19,6 +19,7 @@ int main()
             printf("\t%d",num[i][j]);
             total=total+num[i][j];
         }
+    /*.....Showing Result......*/
         printf("\t%d",total);
         total=0;
         printf("\n");
