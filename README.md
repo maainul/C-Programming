@@ -34,7 +34,7 @@ function_type function_name(parameter list)
 		....................
 		return statement;
 	}
-
+```
 ##### Category of Functions:
 ```
 	1.Function with no arguments and no return value
