@@ -42,7 +42,7 @@ function_type function_name(parameter list)
 	3.Functions with arguments and return value
 	4.Function with no arguments but return a values
 	5.Function that return multiple value
-	```
+```
 #### 1.Function with no arguments and no return value
 ```
 #include <stdio.h>
