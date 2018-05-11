@@ -69,6 +69,7 @@ void add (void)
 
 }
 ```
+#### 2.Functions with arguments and no return value
 ```.c
 /*
     Function with  arguments no return value
@@ -92,6 +93,7 @@ void add (int x,int y)//actual function//function defination
 	printf("addition of two number=%d",s);
 }
 ```
+#### 4.Function with no arguments but return a values
 ```.c
 /*
     Function with  no arguments return value
@@ -114,6 +116,7 @@ int sqrt (void)//actual function//function defination
 return (s);
 }
 ```
+#### 4.Function with no arguments but return a values
 ```.c
 /*
     Function with  arguments return value
