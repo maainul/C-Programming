@@ -5,8 +5,16 @@ Chapter 1:OverView Of C
 Chapter 2:Constants Variables and Data types
 Chapter 3:Operators and Expressions
 Chapter 4:Managing Input and Output Operation
-Chapter 5:User-defined Functions
-
+Chapter 5:Decision making and branching.
+Chapter 6:Decision making and looping.
+Chapter 7:Arrays.
+Chapter 8:Character arrays and strings.
+Chapter 9:User defined functions.
+Chapter10:Structures and unions.
+Chapter11:Pointers.
+Chapter12:File management in C.
+Chapter13:Dynamic memory allocation and linked list.
+Chapter14:The preprocessor in C.
 ```
 ### Chapter 9:User-Defined Functions
 ```
