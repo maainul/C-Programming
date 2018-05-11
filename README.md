@@ -46,50 +46,101 @@ function_type function_name(parameter list)
 	5.Function that return multiple value
 ```
 #### 1.Function with no arguments and no return value
-```c
+```.c
+/*
+    Function with no arguments no return value
+*/
+
 #include <stdio.h>
-/*.....Function Decleration....*/
-void printline(void);
-void value(void);
+void add (void);
 main()
 {
-	printline();
-	value();
-	printline();
+	add();
 }
-/*......Functional1: printline()......*/
-void printline(void)/*...Contains no argument.....*/
+void add (void)
 {
-	int i;
-	for (int i = 0; i < 40; ++i)
-		printf("%c",'-');
-	printf("\n");
-}
-/*.....Function2:value().....*/
-void value(void)
-{
-	int year,period;
-	float inrate,sum,principal;
+	int a,b,s;
+	printf("Enter a:\n");
+	scanf("%d",&a);
+	printf("Enter b:\n");
+	scanf("%d",&b);
+	s=a+b;
+	printf("addition of two number=%d",s);
 
-	/*....Reading input.....*/
-	printf("principal amount ?:\n");
-	scanf("%f",&principal);
-	printf("Interest rate ?:\n");
-	scanf("%f",&inrate);
-	printf("period ?:\n");
-	scanf("%d",&period);
-	/*.....Calculation.......*/
-	sum=principal;
-	year=1;
-	while(year<=period)
-	{
-		sum=sum+(1+inrate);
-		year=year+1;
-	}
-	printf("\n%8.2f %5.2f %5d %12.2f\n",principal,inrate,period,sum);
 }
 ```
+```.c
+/*
+    Function with  arguments no return value
+*/
 
+#include <stdio.h>
+void add (int,int);//function declearation
+main()
+{
+	int a,b;
+	printf("Enter a:\n");
+	scanf("%d",&a);
+	printf("Enter b:\n");
+	scanf("%d",&b);
+	add(a,b);//formal function
+}
+void add (int x,int y)//actual function//function defination
+{
+	int s;
+	s=x+y;
+	printf("addition of two number=%d",s);
+}
+```
+```.c
+/*
+    Function with  no arguments return value
+*/
+
+#include <stdio.h>
+int sqrt (void);//function declearation
+main()
+{
+	int ans;
+    ans=sqrt();
+	printf("addition of two number=%d",ans);
+}
+int sqrt (void)//actual function//function defination
+{
+	int s,n;
+	printf("Enter a number:");
+	scanf("%d",&n);
+	s=n*n;
+return (s);
+}
+```
+```.c
+/*
+    Function with  arguments return value
+*/
+
+#include <stdio.h>
+int add (int,int);//function declearation
+main()
+{
+	int a,b,ans;
+	printf("Enter a:");
+	scanf("%d",&a);
+	printf("Enter b:");
+	scanf("%d",&b);
+	ans=add(a,b);//formal function
+	printf("Addition=%d",ans);
+}
+int add (int x, int y)//actual function//function defination
+{
+	int c;
+	c=x+y;
+	return c;
+}
+
+
+
+```
 ### Small Projects
 #### Inventory Reports
 
