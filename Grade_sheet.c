@@ -2,33 +2,41 @@
 int main()
 {
 	int number,index;
-	char grade;
-
+  
  	printf("Enter Marks");
     scanf(" %d",&number);
     index=number/10;
-	switch(index)
-	{
-		case 10:
-			grade='A';
-			break;
-		case 9:
-			grade='B';
-			break;
-		case '8':
-			grade='C';
-			break;
-		case 7:
-		case 6:
-			grade='D';
-			break;
-		default:
-			printf("Invalid Operation\n");
-			break;
-	}
-	printf("Grade is=%c",grade);
+    if(number<=100)
+    {
+        
+       	switch(index)
+        	{
+        		case 10:
+        		case 9:
+        			printf("A");
+        			break;
+        		case '8':
+        			printf("B");
+        			break;
+        		case 7:
+        			printf("C");
+        			break;
+        		case 6:
+        			printf("D");
+        			break;
+        		default:
+        			printf("You are Failed\n");
+        			break;
+        	} 
+        
+    }
+    else
+    printf("Invalid NUmber");
+
+	
 	return 0;
 }
+
 # 2.Using if else lader
 
 #include <stdio.h>
