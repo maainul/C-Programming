@@ -11,3 +11,20 @@ int main()
   printf("Factorial of %d = %d\n", n, fact);
   return 0;
 }
+
+## Using while loop
+
+# include<stdio.h>
+int main()
+{
+	int number,fact=1,c;
+	scanf("%d",&number);
+	c=1;
+	while(c<=number)
+	{
+		fact=fact*c;
+		c++;
+	}
+	printf("%d factorial is %d\n",number,fact);
+	return 0;
+}
