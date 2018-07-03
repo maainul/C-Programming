@@ -23,3 +23,12 @@ int main()
  
    return 0;
 }
+
+
+------------------------
+ 
+ Enter a number:121
+ 121 is palinfrom number
+ 
+ 
+ ------------------------
