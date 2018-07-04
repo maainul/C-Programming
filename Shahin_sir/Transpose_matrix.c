@@ -2,6 +2,7 @@
 int main ()
 {
     int i,j,A[3][3];
+    printf("---------This is 3*3 Matrix---------")
     printf("Enter Elements of A Matrix:\n");
     for(i=0;i<3;i++)
      {
