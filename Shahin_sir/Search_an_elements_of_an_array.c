@@ -19,15 +19,14 @@ int main()
 	printf("\nEnter which Element you want to search\n");
 	scanf("%d",&s);
 	for (int i = 0; i < n; ++i)
-	{
+	 {
 
-			if(A[i]==s)
-			{
-                		printf("%d is in location %d\n",s,i+1);
-                        c++;
-			}
-
-	}
+	   if(A[i]==s)
+            {
+             printf("%d is in location %d\n",s,i+1);
+             c++;
+	    }
+	 }
     if(c==0)
     printf("Nothing Found");
     else
