@@ -8,21 +8,22 @@
  here sum of divisor is not the given number so it is not perfect number.
  */
 #include <stdio.h>
- 
+
 int main()
 {
     int number, rem, sum = 0, i;
- 
+    //Input number for checking perfect number
     printf("Enter a Number\n");
     scanf("%d", &number);
-    for (i = 1; i <= (number - 1); i++)
+    //condition checking
+    for (i = 1; i < number; i++)
     {
-        rem = number % i;
-	if (rem == 0)
+	if (number % i == 0)
         {
             sum = sum + i;
         }
     }
+    //condition check whether it is perfect or not
     if (sum == number)
         printf("Entered Number is perfect number");
     else
